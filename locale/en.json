@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Interrupt alert",
+    "description": "Pops a topmost window, plays a sound and flashes the taskbar when DSH needs an approval or an answer.",
+    "detail": "docs/DETAIL.md"
+  }
+}

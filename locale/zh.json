@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "中断提醒",
+    "description": "DSH 需要你审批或回答问题时，弹出置顶窗口、播放提示音并闪烁任务栏，避免任务悄悄卡住。",
+    "detail": "docs/DETAIL.md"
+  }
+}

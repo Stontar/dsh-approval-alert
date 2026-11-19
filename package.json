@@ -1,0 +1,46 @@
+{
+  "name": "dsh-approval-alert",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Desktop alert when DSH asks for an approval or a question",
+  "license": "MIT",
+  "author": "Stontar",
+  "homepage": "https://github.com/Stontar/dsh-approval-alert#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stontar/dsh-approval-alert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stontar/dsh-approval-alert/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "notification",
+    "approval",
+    "desktop",
+    "windows"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "screenshots.json",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
